@@ -1,5 +1,5 @@
 # 2021_2_multicore
-## OpenCL을 활용한 병렬화를 통해 CNN 가속화 프로젝트
+## OpenCL을 활용한 병렬화를 통한 CNN 가속화 프로젝트
 - Environment : C, Visual Studio, OpenCL
 - Model : VGG16, Dataset : CIFAR-10
 - convolution layer의 기본적인 병렬화와 BATCH를 통해 가속화 하였습니다. 데이터 흐름 개선, 타일링 기법과 같은 것은 도입하지 못하였기에 모범적인 성능 향상은 아닙니다.
